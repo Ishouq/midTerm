@@ -3,11 +3,10 @@ function randomColor(){
   var i;
   for(i=0;i<=9;i++){
     document.getElementsByClassName("square")[i].style.backgroundColor=getRandomColor();
-    document.getElementsByTagName("h1")[i].innerHTML=Math.floor(Math.random() * 9) + 1;
+    document.getElementsByClassName("square")[i].innerHTML=Math.floor(Math.random() * 9) + 1;
   }
 
 }
-
 
 function getRandomColor() {
   var letters = '0123456789ABCDEF';
@@ -20,7 +19,7 @@ function getRandomColor() {
 
 var text;
 function disappear(pass){
+  text+= pass.innerHTML+" , ";
   pass.style.visibility="hidden";
-  text+=","+pass.innerHTML;
-alert("the order in which the numbers disappear is"+text);
+  alert("the order in which the numbers disappear is "+ text);
 }

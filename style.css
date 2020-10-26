@@ -1,20 +1,51 @@
-
+body{
+  background-color: gray;
+}
+hr{
+  width: 80%;
+  border: 4px solid darksalmon;
+}
 .square{
-    width: 30%;
-    background-color: darksalmon;
-    padding-bottom: 12%;
-    float: left;
-}
-.bigSquare{
-  margin: 0 auto;
-}
-.change{
-  display: block;
-}
-.dsquare{
+  background-color: darksalmon;
   border:1px solid black;
   width: 30%;
-  padding-bottom: 12%;
-  float:left;
+  padding-top: 12%;
+  float:right;
+  text-align: center;
+  font-size: 2rem;
+}
+.bigSquare{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#change ,#finish{
+  font-size: 1em;
+  display: inline-block;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 600px;
+  padding: 20px;
   background-color: darksalmon;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+}
+#change:hover, #finish:hover{
+  background-color: white;
+}
+
+.container{
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: darksalmon;
 }
