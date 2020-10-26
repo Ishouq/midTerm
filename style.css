@@ -1,0 +1,20 @@
+
+.square{
+    width: 30%;
+    background-color: darksalmon;
+    padding-bottom: 12%;
+    float: left;
+}
+.bigSquare{
+  margin: 0 auto;
+}
+.change{
+  display: block;
+}
+.dsquare{
+  border:1px solid black;
+  width: 30%;
+  padding-bottom: 12%;
+  float:left;
+  background-color: darksalmon;
+}
